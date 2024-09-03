@@ -17,6 +17,7 @@ import ProjectsFour from "./ProjectsFour";
 import ProjectsFive from "./ProjectsFive";
 import ProjectsSix from "./ProjectsSix";
 
+/*
 function Counter() {
   const [counts, setData] = useState([]);
 
@@ -34,7 +35,7 @@ function Counter() {
   )
 
 }
-
+*/
 
 export {
   Hero,
@@ -53,5 +54,5 @@ export {
   Contact,
   BallCanvas,
   ComputersCanvas,
-  Counter
+  //Counter
 };

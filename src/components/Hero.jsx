@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import { Counter } from "."
+//import { Counter } from "."
 
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
       <ComputersCanvas />
       <script src="./index.js"></script>
       <div className='absolute text-[#818181] xs:bottom-10 bottom-32 w-full flex justify-center items-center pb-40'>Spin Me</div>
-      <div className="Counter text-3xl absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center pb-20">Portfolio Views: <Counter/></div>
+      <div className="Counter text-3xl absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center pb-20">Portfolio Views: {/*<Counter/>*/}</div>
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
