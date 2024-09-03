@@ -17,7 +17,7 @@ import ProjectsSix from './ProjectsSix';
 
 const counter = document.querySelector(".counter-number");
 async function updateCounter() {
-  let response = await fetch("");
+  let response = await fetch("https://4pcagjf7j2jcmb5quq5rnns5qy0bemti.lambda-url.us-west-2.on.aws/");
   let data = await response.json();
   counter.innerHTML = ` Total Viewers: ${data}`;
 }
