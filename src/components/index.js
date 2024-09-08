@@ -23,7 +23,7 @@ function Counter() {
 
   useEffect(function () {
     async function fetchData() {
-      const result = await fetch("https://d1rp184pj080ii.cloudfront.net/");
+      const result = await fetch("https://4pcagjf7j2jcmb5quq5rnns5qy0bemti.lambda-url.us-west-2.on.aws/");
       const data = await result.json();
       setData(data)
     }
