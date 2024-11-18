@@ -85,7 +85,7 @@ const Feedbacks = ({ name }) => {
             />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div
-                onClick={() => window.open(source_code_link, "_blank")} //the link for the project github icon
+                onClick={() => window.open(source_code_link, "https://github.com/shanekshimizu/shaneshimizu-website-portfolio")} //the link for the project github icon
                 className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
               >
                 <img
